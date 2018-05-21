@@ -2,7 +2,7 @@
 //  AppDelegate.swift
 //  CoordinatorsExample
 //
-//  Created by Claudia Levi on 5/20/18.
+//  Created by David Levi on 5/20/18.
 //  Copyright © 2018 CodeTank Labs LLC. All rights reserved.
 //
 
@@ -11,11 +11,11 @@ import UIKit
 @UIApplicationMain
 class AppDelegate: UIResponder, UIApplicationDelegate {
 
-    var window: UIWindow?
-
+    var coordinator: AppCoordinator!
 
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplicationLaunchOptionsKey: Any]?) -> Bool {
-        // Override point for customization after application launch.
+        coordinator = AppCoordinator()
+        coordinator.start()
         return true
     }
 

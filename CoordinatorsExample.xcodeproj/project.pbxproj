@@ -7,21 +7,43 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		4927E22820B25D3D00B48243 /* Heroes.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4927E22720B25D3D00B48243 /* Heroes.swift */; };
 		4942F50E20B1F54F00438F3A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4942F50D20B1F54F00438F3A /* AppDelegate.swift */; };
-		4942F51020B1F54F00438F3A /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4942F50F20B1F54F00438F3A /* ViewController.swift */; };
-		4942F51320B1F54F00438F3A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4942F51120B1F54F00438F3A /* Main.storyboard */; };
 		4942F51520B1F55000438F3A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4942F51420B1F55000438F3A /* Assets.xcassets */; };
 		4942F51820B1F55000438F3A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4942F51620B1F55000438F3A /* LaunchScreen.storyboard */; };
+		49DA069320B240E900607A44 /* StoryboardIdentifiable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49DA069220B240E900607A44 /* StoryboardIdentifiable.swift */; };
+		49DA069520B2415500607A44 /* Coordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49DA069420B2415500607A44 /* Coordinator.swift */; };
+		49DA069920B2427100607A44 /* AppCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49DA069820B2427100607A44 /* AppCoordinator.swift */; };
+		49DA069B20B244AB00607A44 /* LoginCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49DA069A20B244AB00607A44 /* LoginCoordinator.swift */; };
+		49DA069D20B244C800607A44 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49DA069C20B244C800607A44 /* LoginViewController.swift */; };
+		49DA069F20B244E300607A44 /* ForgotPasswordViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49DA069E20B244E300607A44 /* ForgotPasswordViewController.swift */; };
+		49DA06A320B2451F00607A44 /* HeroesCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49DA06A220B2451F00607A44 /* HeroesCoordinator.swift */; };
+		49DA06A520B2452D00607A44 /* HeroesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49DA06A420B2452D00607A44 /* HeroesViewController.swift */; };
+		49DA06A720B2453800607A44 /* PowersViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49DA06A620B2453800607A44 /* PowersViewController.swift */; };
+		49DA06A920B2454F00607A44 /* Login.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 49DA06A820B2454F00607A44 /* Login.storyboard */; };
+		49DA06AB20B2455D00607A44 /* Heroes.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 49DA06AA20B2455D00607A44 /* Heroes.storyboard */; };
+		49DA06AD20B24FEC00607A44 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 49DA06AC20B24FEC00607A44 /* Main.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		4927E22720B25D3D00B48243 /* Heroes.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Heroes.swift; sourceTree = "<group>"; };
 		4942F50A20B1F54F00438F3A /* CoordinatorsExample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CoordinatorsExample.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		4942F50D20B1F54F00438F3A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		4942F50F20B1F54F00438F3A /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		4942F51220B1F54F00438F3A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		4942F51420B1F55000438F3A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		4942F51720B1F55000438F3A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		4942F51920B1F55000438F3A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		49DA069220B240E900607A44 /* StoryboardIdentifiable.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StoryboardIdentifiable.swift; sourceTree = "<group>"; };
+		49DA069420B2415500607A44 /* Coordinator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Coordinator.swift; sourceTree = "<group>"; };
+		49DA069820B2427100607A44 /* AppCoordinator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppCoordinator.swift; sourceTree = "<group>"; };
+		49DA069A20B244AB00607A44 /* LoginCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginCoordinator.swift; sourceTree = "<group>"; };
+		49DA069C20B244C800607A44 /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		49DA069E20B244E300607A44 /* ForgotPasswordViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ForgotPasswordViewController.swift; sourceTree = "<group>"; };
+		49DA06A220B2451F00607A44 /* HeroesCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeroesCoordinator.swift; sourceTree = "<group>"; };
+		49DA06A420B2452D00607A44 /* HeroesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeroesViewController.swift; sourceTree = "<group>"; };
+		49DA06A620B2453800607A44 /* PowersViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PowersViewController.swift; sourceTree = "<group>"; };
+		49DA06A820B2454F00607A44 /* Login.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Login.storyboard; sourceTree = "<group>"; };
+		49DA06AA20B2455D00607A44 /* Heroes.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Heroes.storyboard; sourceTree = "<group>"; };
+		49DA06AC20B24FEC00607A44 /* Main.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,14 +76,49 @@
 		4942F50C20B1F54F00438F3A /* CoordinatorsExample */ = {
 			isa = PBXGroup;
 			children = (
+				49DA069120B240C800607A44 /* Utility */,
 				4942F50D20B1F54F00438F3A /* AppDelegate.swift */,
-				4942F50F20B1F54F00438F3A /* ViewController.swift */,
-				4942F51120B1F54F00438F3A /* Main.storyboard */,
+				49DA069820B2427100607A44 /* AppCoordinator.swift */,
+				4927E22720B25D3D00B48243 /* Heroes.swift */,
+				49DA06AC20B24FEC00607A44 /* Main.storyboard */,
+				49DA069620B2423200607A44 /* Login */,
+				49DA069720B2423A00607A44 /* Heros */,
 				4942F51420B1F55000438F3A /* Assets.xcassets */,
 				4942F51620B1F55000438F3A /* LaunchScreen.storyboard */,
 				4942F51920B1F55000438F3A /* Info.plist */,
 			);
 			path = CoordinatorsExample;
+			sourceTree = "<group>";
+		};
+		49DA069120B240C800607A44 /* Utility */ = {
+			isa = PBXGroup;
+			children = (
+				49DA069420B2415500607A44 /* Coordinator.swift */,
+				49DA069220B240E900607A44 /* StoryboardIdentifiable.swift */,
+			);
+			path = Utility;
+			sourceTree = "<group>";
+		};
+		49DA069620B2423200607A44 /* Login */ = {
+			isa = PBXGroup;
+			children = (
+				49DA06A820B2454F00607A44 /* Login.storyboard */,
+				49DA069A20B244AB00607A44 /* LoginCoordinator.swift */,
+				49DA069C20B244C800607A44 /* LoginViewController.swift */,
+				49DA069E20B244E300607A44 /* ForgotPasswordViewController.swift */,
+			);
+			path = Login;
+			sourceTree = "<group>";
+		};
+		49DA069720B2423A00607A44 /* Heros */ = {
+			isa = PBXGroup;
+			children = (
+				49DA06AA20B2455D00607A44 /* Heroes.storyboard */,
+				49DA06A220B2451F00607A44 /* HeroesCoordinator.swift */,
+				49DA06A420B2452D00607A44 /* HeroesViewController.swift */,
+				49DA06A620B2453800607A44 /* PowersViewController.swift */,
+			);
+			path = Heros;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -122,9 +179,11 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				49DA06A920B2454F00607A44 /* Login.storyboard in Resources */,
+				49DA06AD20B24FEC00607A44 /* Main.storyboard in Resources */,
 				4942F51820B1F55000438F3A /* LaunchScreen.storyboard in Resources */,
 				4942F51520B1F55000438F3A /* Assets.xcassets in Resources */,
-				4942F51320B1F54F00438F3A /* Main.storyboard in Resources */,
+				49DA06AB20B2455D00607A44 /* Heroes.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -135,22 +194,23 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				4942F51020B1F54F00438F3A /* ViewController.swift in Sources */,
+				49DA069F20B244E300607A44 /* ForgotPasswordViewController.swift in Sources */,
+				49DA069D20B244C800607A44 /* LoginViewController.swift in Sources */,
+				49DA069B20B244AB00607A44 /* LoginCoordinator.swift in Sources */,
+				49DA06A720B2453800607A44 /* PowersViewController.swift in Sources */,
+				49DA069520B2415500607A44 /* Coordinator.swift in Sources */,
+				49DA06A520B2452D00607A44 /* HeroesViewController.swift in Sources */,
+				4927E22820B25D3D00B48243 /* Heroes.swift in Sources */,
+				49DA069920B2427100607A44 /* AppCoordinator.swift in Sources */,
 				4942F50E20B1F54F00438F3A /* AppDelegate.swift in Sources */,
+				49DA069320B240E900607A44 /* StoryboardIdentifiable.swift in Sources */,
+				49DA06A320B2451F00607A44 /* HeroesCoordinator.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		4942F51120B1F54F00438F3A /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				4942F51220B1F54F00438F3A /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		4942F51620B1F55000438F3A /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -280,7 +340,8 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				CODE_SIGN_STYLE = Automatic;
+				CODE_SIGN_STYLE = Manual;
+				DEVELOPMENT_TEAM = "";
 				INFOPLIST_FILE = CoordinatorsExample/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -288,6 +349,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.codetanklabs.CoordinatorsExample;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -297,7 +359,8 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				CODE_SIGN_STYLE = Automatic;
+				CODE_SIGN_STYLE = Manual;
+				DEVELOPMENT_TEAM = "";
 				INFOPLIST_FILE = CoordinatorsExample/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -305,6 +368,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.codetanklabs.CoordinatorsExample;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
