@@ -61,10 +61,19 @@ class AppCoordinator: Coordinator {
         } else {
 			// User is signed in, start heroes coordinator
             self.startHeroesCoordinator(animated:false)
+            self.startAuthExpireTimer()
 		}
-        print("STARTED")
 	}
 
+    public func startAuthExpireTimer() {
+//        Timer.scheduledTimer(withTimeInterval: 10.0, repeats: false) { (timer) in
+//            self.appState = .userUnauthenticated
+//            self.navigationController.popToRootViewController(animated: false)
+//            self.coordinators.removeLast()
+//            self.startLoginCoordinator(animated: true)
+//        }
+    }
+    
 }
 
 
@@ -78,15 +87,15 @@ extension AppCoordinator: LoginCoordinatorDelegate {
         loginCoordinator.start(animated: animated)
 		self.coordinators.append(loginCoordinator)
 	}
-	
-	
+
     func didLogin(loginCoordinator: LoginCoordinator) {
         self.appState = .userAuthenticated
         loginCoordinator.stop(animated: false)
         self.coordinators.removeLast()
         self.startHeroesCoordinator(animated: true)
+        self.startAuthExpireTimer()
     }
-	
+
 }
 
 // MARK: - HeroesCoordinatorDelegate
